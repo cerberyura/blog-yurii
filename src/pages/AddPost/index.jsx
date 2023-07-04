@@ -33,7 +33,7 @@ export const AddPost = () => {
       setImageUrl(data.url)
     } catch (err) {
       console.warn(err);
-      alert('Помилка при загрузці файлів');
+      alert('Помилка при загрузці файлівв');
     }
   };
 
